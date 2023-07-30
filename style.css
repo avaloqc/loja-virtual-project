@@ -1,0 +1,63 @@
+.nav-item {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section h2 {
+  text-transform: capitalize;
+}
+
+.carousel .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: blue;
+}
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  color: blue;
+}
+.carousel-caption h5 {
+  font-size: 24px;
+  text-shadow: 2px 2px 2px skyblue;
+}
+.carousel carousel-control-prev button,
+carousel-control-next button {
+  background-color: blue;
+}
+
+.centered {
+  display: flex;
+  justify-content: center; 
+}
+
+.profile-card .button:hover {
+  background-color: #555;
+}
+
+.profile-card-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  box-shadow: 0 0 22px rgba(51, 51, 51, 0.4);
+  /* transition: .6s; */
+  margin: auto;
+}
+
+.profile-card-photo .pic {
+  /* position: relative; */
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+footer p {
+  line-height: 15%;
+}
+
+footer #rrss {
+  text-transform: capitalize;
+}

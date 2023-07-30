@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CalcuMundo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="p-5 bg-primary text-white text-center">
+        <h1>CalcuMundo - Loja de Calculadoras</h1>
+        <p>O site com calculadoras científicas de todas as marcas e modelos</p>
+      </div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#quem-somos">quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nossos-prod">nossos produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosso-time">nosso time</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="src/imgs/carousel/bannerprime.png"
+              class="d-block w-100"
+              alt="calculadora gráfica HP"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Calculadoras Gráficas a Color da HP</h5>
+              <p>Produtos selecionados da HP.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/imgs/carousel/casio-banner3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Calculadoras científicas CASIO</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/imgs/carousel/banner-texas-ti-84.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Calculadoras Gráficas Texas Instruments</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src/imgs/carousel/banner-texas-ins.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Texas Instruments: N-Spire</h5>
+            </div>
+          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="quem-somos" class="text-center mt-5">
+      <h2>quem somos?</h2>
+      <div class="p-3">
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Somos uma empresa dedicada a fornecer ferramentas de cálculo 
+              para estudiantes e profissionais. Oferecemos os melhores produtos do mundo
+              importando aqueles que normalmente não estão diponiveís na nossa região
+            </p>
+            <p>
+              Contamos com uma ampla gama de calculadoras científicas e graficadoras de diversas 
+              marcas e modelos, com as melhores ofertas e planes de pagamento para estudaintes.
+              Queremos ser parte da sua jornada de estudos!
+            </p>
+          </div>
+          <figure class="col-md-8">
+            <img src="src/imgs/nos.jpg" alt="nos" style="width: 53rem" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="nossos-prod" class="text-center mt-5">
+      <h2 class="p-3 pb-5">nossos produtos</h2>
+      <div class="container text-center">
+        <div class="card-group">
+          <div class="row">
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img
+                  src="src/imgs/items/classwiz-jp900.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-header">CASIO ClazzWiz JP-900 <br><strong>R$ 420</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">A japonesa de 700 funções</h5>
+                  <p class="card-text">
+                    A mais completa da série ClassWiz, produto importado do
+                    Japão.
+                  </p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img
+                  src="src/imgs/items/casio-991cwla.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-header">CASIO FX-991LACW <br><strong>R$ 220</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">Novo modelo da série ClassWiz.</h5>
+                  <p class="card-text">
+                    O mais novo modelo para latinoamérica com texto em portguês
+                    e espanhol.
+                  </p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img
+                  src="src/imgs/items/casio-fx-991ex.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-header">CASIO FX-991EX <br><strong>R$ 210</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    A poderosa calculadora da casio, agora com mais funções
+                    (530)
+                  </h5>
+                  <p class="card-text">Possue texto em inglês.</p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img
+                  src="src/imgs/items/sharp-model.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-header">SHARP RX 230 <br><strong>R$ 210</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora científica Sharp</h5>
+                  <p class="card-text">
+                    Ideal para ensino médio e faculdade de exatas.
+                  </p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img src="src/imgs/items/ti-84.png" class="card-img-top" alt="..." />
+                <h5 class="card-header">TEXAS INSTRUMENT TI-84 PLUS CE <br><strong>R$ 1500</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora Gráfica TI</h5>
+                  <p class="card-text">
+                    Perfeita para estuantes e profissionais de exatas,
+                    ideal para simulações, gráficos e testes.
+                  </p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 centered">
+              <div class="card border-primary mb-5" style="width: 18rem">
+                <img
+                  src="src/imgs/items/hp-prime.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-header">HP PRIME GRAPHING CALCULATOR <br><strong>R$ 1450</strong></br></h5>
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora gráfica de HP.</h5>
+                  <p class="card-text">
+                    Mais de 1200 funções diferentes e resolução de 
+                    problemas por passos
+                  </p>
+                  <a class="btn btn-primary">Adicionar ao carrinho</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosso-time" class="text-center mt-5 p-3">
+      <h2>nosso time</h2>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 main">
+            <div class="profile-card card border-primary">
+              <div class="profile-card-photo mt-2">
+                <img
+                  src="src/imgs/meet-the-team/jane-doe.jpg"
+                  class="pic"
+                  alt="Jane"
+                  style="width: 100%"
+                />
+              </div>
+              <h2>Jane Doe</h2>
+              <p class="title">Fundador e Diretor</p>
+              <p>Fundador da loja.</p>
+              <p>jane@calcumundo.com</p>
+              <p><button class="btn btn-primary">Contact</button></p>
+            </div>
+          </div>
+          <div class="col-md-4 main">
+            <div class="profile-card card border-primary">
+              <div class="profile-card-photo mt-2">
+                <img
+                  src="src/imgs/meet-the-team/roberto.jpeg"
+                  class="pic"
+                  alt="Mike"
+                  style="width: 100%"
+                />
+              </div>
+              <h2>Roberto C.</h2>
+              <p class="title">Desenvolvedor e designer</p>
+              <p>Desenvolvedor front-end</p>
+              <p>roberto@calcumundo.com</p>
+              <p><button class="btn btn-primary">Contact</button></p>
+            </div>
+          </div>
+          <div class="col-md-4 main">
+            <div class="profile-card card border-primary">
+              <div class="profile-card-photo mt-2">
+                <img
+                  src="src/imgs/meet-the-team/john-doe.jpg"
+                  class="pic"
+                  alt="John"
+                  style="width: 100%"
+                />
+              </div>
+              <h2>John Doe</h2>
+              <p class="title">Chefe de finanças</p>
+              <p>Diretor financeiro da firma.</p>
+              <p>john@calcumundo.com</p>
+              <p><button class="btn btn-primary">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>CalcuMundo - A loja da calculadora</p>
+        <p>Rua Central, 001. Bairro Centro. Boa Vista, RR</p>
+        <p>sac@calcumundo.com.br</p>
+        <p>095-9993344</p>
+        <p id="rrss">
+          <a href="">facebook</a> <a href="">instagram</a>
+          <a href="">twitter</a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- TODO O site deve ser composto por 6 seções: -->
+
+<!--* 1) A barra de navegação,  -->
+<!--* 2) um carousel,  -->
+<!--* 3) quem somos, -->
+<!--* 4) nosso time, -->
+<!--* 5) nossos produtos   -->
+<!--* 6) um rodapé.   -->
+
+<!-- -Na barra de navegação, deve ter os links que direcionam para seção quem somos, nosso time e nossos produtos. 
+-Na seção do carousel, escolha quatro imagens sobre o produto ou da loja, algo que desperte o desejo do cliente 
+    continuar navegando no seu site e cada imagem deve ter uma frase de impacto. 
+-Na seção quem somos, coloque um texto e uma imagem para falar sobre a empresa. Faça uma diagramação que fique interessante 
+    e desperte o interesse das pessoas lerem. 
+Na seção nosso time, aproveite e coloque fotos arredondadas de pessoas. Dando a ideia de quem é o time da empresa.
+Na seção nossos produtos, explore o uso de cards colocando uma foto do produto, um texto abaixo da foto sobre o produto
+    e também não deixe de informar o valor do produto. Nessa seção, coloque, pelo menos, 6 produtos. 
+No rodapé, informe o endereço, telefone e as redes sociais da empresa.  -->
